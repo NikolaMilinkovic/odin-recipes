@@ -1,3 +1,4 @@
 # odin-recipes
-# Demonstrated using Git commands to pull the repository and usage of ther commands
-# Demonstrated my skills in usage of basic HTML-5
+Demonstrated using Git commands in the workflow
+Demonstrated my skills in usage of basic HTML-5
+Hopefully made something interesting by the end
