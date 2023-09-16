@@ -255,7 +255,8 @@ img.header-image:hover{
 }
 
 h2.h2-brief-description,h2.ingredients-header,h2.steps-header{
-    background-color: #dce9e8;
+    background-color: #f6f8f8;
+    
     margin: 0px;
     padding: 2%;
     color:  #338683;
@@ -263,7 +264,7 @@ h2.h2-brief-description,h2.ingredients-header,h2.steps-header{
 }
 
 p.text-brief-description{
-    background-color: #f6f8f8;
+    background-color: white;
     padding-left: 5%;
     padding-right: 5%;
     color:  #338683;
@@ -276,11 +277,11 @@ p.text-brief-description{
 .ingredients-text-container{
     display: flex;
     justify-content: center;
-    background-color: #f6f8f8;
+    background-color: white;
 }
 
 ul.text-ingredients-left,ul.text-ingredients-right {
-    background-color: #f6f8f8;
+    background-color: white;
     padding-left: 5%;
     padding-right: 5%;
     color:  #338683;
@@ -292,7 +293,7 @@ ul.text-ingredients-left,ul.text-ingredients-right {
 }
 
 ol.text-steps-list{
-    background-color: #f6f8f8;
+    background-color: white;
     padding-left: 5%;
     padding-right: 5%;
     color:  #338683;
@@ -303,7 +304,7 @@ ol.text-steps-list{
 }
 
 li{
-    background-color: #f6f8f8;
+    background-color: white;
 }
 
 .footer {
