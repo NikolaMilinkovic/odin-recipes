@@ -22,14 +22,13 @@ body  {
 
 .parent-div {
     display: flex;
-    height: 100%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin: 10%;
     position: absolute;
-    height: 100%;
     min-width: 80%;
     background-color: white;
     flex-direction: column;
+    margin-top: 0px;
 }
 
 .background-div {
@@ -65,7 +64,7 @@ button.food-btn {
     min-width: 360px;
     min-height: 50px;
     box-shadow: 1px 1px 2px #444;
-}
+    }
 
 button.food-btn:hover {
     cursor: pointer;
@@ -161,7 +160,7 @@ a.odin-logo {
 
 .footer {
     display: flex;
-    margin-top: auto;
+    margin: auto;
     min-height: 80px;
     background-color: #dce9e8;
     border-top: 2px solid #5cbdb9;
@@ -171,15 +170,22 @@ a.odin-logo {
 .newbie {
     margin: 0;
     padding: 0;
-    background-color: inherit;
     display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.newbie-btn {
+.newbie-href{
+    text-decoration: none;
+    color: -webkit-link;
+}
+
+button.newbie-btn {
     color: -webkit-link;
     font-family: Verdana, sans-serif;
     background-color: #c8f1ef;  
-    border: 2px solid #c8f1ef;
+    border: 2px solid #5cbdb9;
+    box-shadow: 6px #d4faf8;
     padding-left: 3%;
     padding-right: 3%;
     min-width: 180px;
